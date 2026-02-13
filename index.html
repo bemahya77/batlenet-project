@@ -1,0 +1,1303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./image/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <title>Home | Battle.net</title>
+  </head>
+
+
+  <body>
+
+    <div class="wraper bg-main w-full h-[2000px] overflow-x-hidden">
+
+      <!-- شروع هدر موبایل -->
+
+      <div class="header-mobile w-full lg:hidden h-max flex flex-col">
+
+        <div class="head-mobile w-full h-[56px] flex-row flex justify-between items-center p-4 ">
+
+        <div class="menu-mobile group relative"><img src="./image/svg/mobile/menu-mobile.svg" alt="">
+          <!-- شروع ساب منو همبرگری موبایل -->
+        <div class="sub-menu-mobile absolute hidden group-hover:flex w-[60vh] h-[600px] z-40 bg-second -top-10  -left-10 ">
+
+          <div class="w-full h-[60px] flex items-center justify-between px-4 absolute top-4 left-4">
+            <a href=""><img class="w-[30px] h-[30px] " src="./image/svg/mobile/cancel.svg" alt=""></a>
+            <img class="w-[280px] h-[280px] pr-30 pt-1.5" src="./image/svg/logo.svg" alt="">
+          </div>
+
+          <a href=""><p class="absolute top-33 left-14  text-xl text-gray-50">warcraft</p></a>
+          <img class="w-[16px] h-[16px] absolute top-34 left-34 " src="./image/svg/menu.svg" alt="">
+
+          <a href=""><p class="absolute top-44 left-14  text-xl text-gray-50">Diablo</p></a>
+          <img class="w-[16px] h-[16px] absolute top-46 left-30 " src="./image/svg/menu.svg" alt="">
+
+          <a href=""><p class="absolute top-53 left-14  text-xl text-gray-50">OverWatch</p></a>
+          <img class="w-[16px] h-[16px] absolute top-55 left-40 " src="./image/svg/menu.svg" alt="">
+
+          <a href=""><p class="absolute top-63 left-14  text-xl text-gray-50">StarCraft</p></a>
+          <img class="w-[16px] h-[16px] absolute top-64 left-34 " src="./image/svg/menu.svg" alt="">
+
+          <a href=""><p class="absolute top-73 left-14  text-xl text-gray-50">Call of Duty</p></a>
+          <img class="w-[16px] h-[16px] absolute top-75 left-42 " src="./image/svg/menu.svg" alt="">
+
+          <a href=""><p class="absolute top-83 left-14  text-xl text-gray-50">More</p></a>
+          <img class="w-[16px] h-[16px] absolute top-85 left-28 " src="./image/svg/menu.svg" alt="">
+
+            <a href=""><p class="absolute top-95 left-14  text-xl text-gray-50">Battle.net Balance</p></a>
+          <img class="w-[16px] h-[16px] absolute top-97 left-55 " src="./image/svg/menu.svg" alt="">
+          
+        </div>
+        <!-- پایان ساب منو همبرگری موبایل -->
+        </div>
+      <div class="logo w-[150px] h-[48px] flex items-center"><img src="./image/svg/logo.svg" alt=""></div>
+      <div class="account"><img src="./image/svg/mobile/account-mobile.svg" alt=""></div>
+
+      </div>
+
+      <div class="search w-[93%] h-[55px] pl-4 bg-second flex items-center relative rounded mx-auto">
+  <input 
+    class="w-full h-full rounded px-4 font-bold capitalize text-gray-300 bg-transparent focus:outline-none" 
+    type="text" 
+    placeholder="Search Shop">
+  <img class="w-[24px] h-[24px] absolute top-1/2 left-0.5 -translate-y-1/2" src="./image/svg/question.svg" alt="">
+</div>
+</div>
+
+      <!-- پایان هدر موبایل -->
+
+      <!-- شروع هدر دسکتاپ -->
+
+      <!-- هدر دسکتاپ -->
+<div class="header-desktop fixed z-50 bg-main  hidden lg:flex w-full flex-col h-max">
+        <div class="head-desktop w-full h-[72px] grid grid-cols-2">
+          <!-- لوگو -->
+        <div class="logo w-[220px] h-[60px] flex items-center pl-4 justify-center pt-2">
+          <img class="w-[200px] h-[56px]" src="./image/svg/logo.svg" alt="">
+        </div>
+        <!--  منو -->
+        <div class="three-title flex gap-10 items-center justify-center group ">
+          <div class="one flex flex-row gap-4"><img class="w-[25px] h-[25px] capitalize " src="./image/svg/download.svg" alt=""><a class="capitalize text-white font-bold text-[18px]" href="">Download Battle.net</a></div>
+          <div class="two flex flex-row gap-4"><img class="w-[25px] h-[25px] capitalize" src="./image/svg/support.svg" alt=""><a class="capitalize text-white font-bold text-[18px]" href="">Support</a></div>
+          <div class="three flex flex-row gap-4 relative">
+            <img class="w-[25px] h-[25px] capitalize" src="./image/svg/account.svg" alt="">
+            <a class="capitalize text-white font-bold text-[18px]" href="">Account</a>
+            <img src="./image/svg/menu.svg" alt="">
+            <!-- شروع ساب منو اکانت-->
+             <div class="sub-account w-[43vh] h-[400px] hidden group-hover:flex z-30 top-12 right-0  delay-150  absolute bg-main border border-gray-700">
+              
+              <a class="w-[78%] h-[11%] gap-2 inline-block bg-blue-600 rounded-sm absolute top-8 left-9 " href=""><p class="text-white  items-center text-center absolute top-3 left-28 font-bold text-lg">log in</p></a>
+              <img class="w-[26px] h-[26px] absolute left-8 top-26" src="./image/svg/account/setting.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-26 text-gray-300 font-[450]">Account Settings</p>
+              
+              <img class="w-[26px] h-[26px] absolute left-8 top-38" src="./image/svg/account/hurt.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-38 text-gray-300 font-[450]">Wish List</p>
+
+              <img class="w-[26px] h-[26px] absolute left-8 top-50" src="./image/svg/account/code.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-50 text-gray-300 font-[450]">Redeem Code</p>
+
+              <img class="w-[26px] h-[26px] absolute left-8 top-62" src="./image/svg/account/change.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-62 text-gray-300 font-[450]">Change BattleTag</p>
+
+              <img class="w-[26px] h-[26px] absolute left-8 top-84" src="./image/svg/account/creat.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-84 text-gray-300 font-[450]">Create Account</p>
+              
+             </div>
+
+             <!-- پایان ساب منو اکانت -->
+          </div>
+        </div>
+        </div>
+       
+        <nav class="w-full h-[56px] rounded mb-4 grid lg:grid-cols-[80%_5%_15%] xl:grid-cols-[70%_15%_15%] gap-2 px-4">
+          <div class="menu flex flex-row items-center p-4 bg-second rounded[4px]">
+            <ul class="text-gray-200 font-bold flex flex-row gap-8 items-center">
+              <!-- منو اول -->
+              
+              <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>Warcraft</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Word of warcraft</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Massively Multiplayer RGB</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-two.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Word of warcraft Classic</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Massively Multiplayer RGB</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-warcraft(one)/sun-menu-warcraft-three.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">WarcraftRumble</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Strategy</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-four.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Hearthstone</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Strategy Card Game</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Warcraft</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Real-time Strategy</p>
+                    </div>
+                  </a>
+
+                </div>
+              </li>
+
+              <!-- منو دوم -->
+              
+              <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>Diablo</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sum-menu-diablo(two)/sub-menu-diablo-one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo IV</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sum-menu-diablo(two)/sub-menu-diablo-two.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo Immortal</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sum-menu-diablo(two)/sub-menu-diablo-three.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo III</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sum-menu-diablo(two)/sub-menu-daiblo-four.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo II:Resurrected</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sum-menu-diablo(two)/sub-menu-diablo-five.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                </div>
+              </li>
+
+              <!-- منو سوم -->
+               <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>Overwatch</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-overwatch(three)/sub-menu-overwatch-one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Overwatch 2</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Team-Based Action Game</p>
+                    </div>
+                  </a>
+
+                </div>
+              </li>
+
+
+              <!-- منو چهارم -->
+               <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>StarCraft</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-starcraft(four)/sub-menu-starcraft-one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">StareCraft II</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Real-time Strategy</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-starcraft(four)/sub-menu-starcraft-two.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">StareCraft</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Real-time Strategy</p>
+                    </div>
+                  </a>
+
+                 
+
+                </div>
+              </li>
+
+
+              <!-- منو پنجم -->
+               <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>Call of Dutty</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Black Ops 7</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/two.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Black Ops 6</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/three.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Warzone</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/four.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Modern Warfare III</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/five.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Modern Warfare II</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/six.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Vanguard</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/seven.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Black Ops Cold War</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/eight.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Modern Warfare</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action Shooter</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-callofduty(five)/nine.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Modern Warfare 2</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                </div>
+              </li>
+
+              
+               
+              <!-- منو ششم -->
+              
+              <li class="flex group cursor-pointer justify-center capitalize items-center gap-2 relative">
+                <p>More</p>
+                <img src="./image/svg/menu.svg" alt="">
+              <!-- شروع ساب منو دسکتاپ -->
+                <div class="sub-mune-1 w-[20vw] h-max hidden z-20 gap-4 group-hover:flex  border-[1px solid white] absolute top-12 -left-2 p-4 bg-main flex flex-col">
+                  
+                   <div class="flex flex-row">
+                     <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/seven.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+                  <div class="flex flex-col">
+                   <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/eight.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+
+                  </div></div>
+                  
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/one.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo IV</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/two.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo Immortal</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/three.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo III</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/four.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo II:Resurrected</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                  <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/five.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                   <a class="w-full h-max flex gap-2" href="">
+                    <img class="w-[40px] h-[40px]" src="./image/svg/sub-menu-more(six)/six.svg" alt="" >
+                    <div class="text">
+                    <h4 class="text-gray-300">Diablo</h4>
+                    <p class="text-[13px] text-gray-300 font-[450]">Action RPG</p>
+                    </div>
+                  </a>
+
+                 
+
+                </div>
+              </li>
+
+
+              
+            </ul>
+          </div>
+          <div class="search-desktop mx-2 relative rounded[4px] bg-second">
+            <img class="w-[24px] h-[24px] absolute top-4 left-4" src="./image/svg/question.svg" alt="">
+            <p class="text-gray-400 font-bold top-4 left-12 absolute">Search Shop</p>
+          </div>
+
+          <div class="balancs rounded[4px] group capitalize bg-second text-gray-400 flex justify-center items-center font-bold">
+          <p>Battle.net balance</p>
+          <img src="./image/svg/menu.svg" alt="">
+          
+          <!-- شروع ساب منو بتل نت -->
+           <div class="sub-account w-[46vh] h-[200px] hidden group-hover:flex z-30 top-36 right-2  delay-150  absolute bg-main border border-gray-700">
+              
+              <img class="w-[28px] h-[28px] absolute left-8 top-8" src="./image/svg/battlenet-balance/add.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-8 text-gray-300 font-[450]">Add Balance</p>
+              
+              <img class="w-[26px] h-[26px] absolute left-8 top-18" src="./image/svg/battlenet-balance/gift.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-18 text-gray-300 font-[450]">Gift Balance</p>
+
+              <img class="w-[26px] h-[26px] absolute left-8 top-28" src="./image/svg/battlenet-balance/history.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-28 text-gray-300 font-[450]">Balance History</p>
+
+              <img class="w-[26px] h-[26px] absolute left-8 top-38" src="./image/svg/battlenet-balance/help.svg" alt="">
+              <p class="absolute left-18 text-[16px] top-38 text-gray-300 font-[450]">Balance Help</p>
+
+              
+              
+             </div>
+          </div>
+
+        </nav>
+       </div>
+
+      <!-- پایان هدر دسکتاپ -->
+
+      <!-- شروع swiper desktop -->
+       <div class="max-lg:hidden mt-[148px]">
+      <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide "><img class="w-full" src="./image/swiper/swiper-1.png" alt="">
+        <div class="text w-[210px] h-[170px] absolute  left-55 top-28">
+          <img class="relative" src="./image/swiper/1.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-2.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/2.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-3.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/3.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-4.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/4.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-5.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/5.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-6.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/6.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide"><img src="./image/swiper/swiper-7.png" alt="">
+      <div class="text w-[210px] h-[170px] absolute left-55 top-28">
+          <img class="relative" src="./image/swiper/7.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+  <!-- پایان swiper desktop -->
+
+  <!-- شروع swipper mobile -->
+
+  <div class="lg:hidden mt-[50px]">
+      <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide relative"><img class="w-full" src="./image/swiper/mobile/swiiper-1.png" alt="">
+        <div class="text w-[200px] h-[100px] absolute  left-68 top-17">
+          <img class="relative" src="./image/swiper/mobile/1.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative"><img src="./image/swiper/mobile/swiper-2.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/2.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative "><img src="./image/swiper/swiper-3.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/3.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative"><img src="./image/swiper/swiper-4.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/4.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative"><img src="./image/swiper/swiper-5.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/5.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative"><img src="./image/swiper/swiper-6.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/6.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide relative"><img src="./image/swiper/swiper-7.png" alt="">
+      <div class="text w-[180px] h-[100px] absolute left-68 top-0">
+          <img class="relative" src="./image/swiper/mobile/7.png" alt="">
+          <p class="relative text-white font-bold ">Unleash chaos in the new seasonT now live</p>
+          <a class="relative  text-white font-bold bg-buttom inline-block px-4 py-2 rounded-lg transition" href="">Purchase Battle Pass Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+  <!-- پایان swipper mobile -->
+
+  <!-- شروع کارد محصول -->
+
+  <h1 class="text-white font-extrabold pl-4 pt-24">Recommended</h1>
+
+  <div class="all-card relative pt-4 pl-4 w-full h-max grid gap-6 
+            max-md:grid-cols-2 
+            md:grid-cols-3 
+            xl:grid-cols-4 
+            2xl:grid-cols-5">
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/1.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100  text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/2.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/3.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/4.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/5.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/6.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/7.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%] " src="./image/card/recommended/8.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/9.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%]" src="./image/card/recommended/10.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+  </div>
+
+      <!-- کارد محصول سری 2 -->
+
+      <h1 class="text-white font-extrabold pl-4 pt-24">Featured</h1>
+
+        <div class="all-card relative pt-4 pl-4 w-full h-max grid gap-6 
+            max-md:grid-cols-2 
+            md:grid-cols-3 
+            xl:grid-cols-4 
+            2xl:grid-cols-5">
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/1.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100  text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/2.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/3.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/4.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/5.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/6.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/7.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%] " src="./image/card/recommended/8.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/9.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%]" src="./image/card/recommended/10.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+  </div>
+
+  <!-- شروع کارد محصول 3 -->
+
+  <h1 class="text-white font-extrabold pl-4 pt-24">Trending Now</h1>
+
+        <div class="all-card relative pt-4 pl-4 w-full h-max grid gap-6 
+            max-md:grid-cols-2 
+            md:grid-cols-3 
+            xl:grid-cols-4 
+            2xl:grid-cols-5">
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/1.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100  text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/2.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/3.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/4.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/5.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/6.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/7.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%] " src="./image/card/recommended/8.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/9.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%]" src="./image/card/recommended/10.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+  </div>
+
+  <!-- شروع کارد محصول چهارم -->
+
+  <h1 class="text-white font-extrabold pl-4 pt-24">Most Gifted</h1>
+
+        <div class="all-card relative pt-4 pl-4 w-full h-max grid gap-6 
+            max-md:grid-cols-2 
+            md:grid-cols-3 
+            xl:grid-cols-4 
+            2xl:grid-cols-5">
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/1.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100  text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/2.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/3.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/4.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/5.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute top-100 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/6.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/7.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%] " src="./image/card/recommended/8.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl" src="./image/card/recommended/9.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+    <div class="card group w-[275px] h-[425px] gap-3 bg-second rounded-3xl flex flex-col ">
+      <img class="rounded-t-2xl w-[100%] h-[36.5%]" src="./image/card/recommended/10.png" alt="">
+
+      <div class="photo flex flex-row pl-8 group-hover:pt-3">
+        <img class=" w-[30px] h-[30px]" src="./image/svg/sub-menu-warcraft(one)/sub-menu-warcraft-five.svg" alt="">
+        <p class="px-8 pl-4 text-gray-400 font-bold">Word of warecraft</p>
+      </div>
+
+      <h3 class="px-8 text-gray-400  group-hover:pt-3">Call do Dutt</h3>
+      <p class="px-8 text-yellow-300">Coming 2026 – Pre-purchase today to get future Housing Early Access and more!</p>
+      <p class="px-8 text-gray-400">Massively Multiplayer RPG</p>
+      <h3 class="px-8 font-extrabold absolute bottom-5 text-white">300$</h3>
+    </div>
+
+  </div>
+  <!-- پایان کارد محصول -->
+
+<!-- شروع فوتر -->
+<div class="relative w-full lg:h-[571px] mt-32 flex flex-col-reverse lg:flex-row items-center justify-between bg-cover bg-center px-6 lg:px-12 py-12 lg:py-0"
+     style="background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt33881df85a125c99/68a7bfe8e31a5e43cec036c6/section-bg-lg.jpg');">
+
+  <!-- سمت چپ  -->
+  <div class="flex-1 flex justify-center mt-10 lg:mt-0">
+    <img class="w-[90%] max-w-[820px] h-auto" src="./image/footer/desktopApp.png" alt="Monitor">
+  </div>
+
+  <!-- سمت راست: متن + دکمه‌ها -->
+  <div class="flex-1 text-white text-center lg:text-left space-y-6 lg:pl-40">
+    <h2 class="text-4xl lg:text-3xl font-bold">Dive into adventure</h2>
+    <p class="text-lg max-w-md mx-auto lg:mx-0">
+      Download Battle.net and join a community of millions.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+      <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl shadow-lg">
+        Download for Windows
+      </button>
+      <button class="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-xl shadow-lg">
+        Learn More
+      </button>
+    </div>
+    <p>Also available for <span class="underline font-semibold">Mac</span> and <span class="underline font-semibold">mobile</span></p>
+  </div>
+
+</div>
+<!-- پایان فوتر -->
+
+
+<!-- شروع پایین فوتر -->
+<footer class="text-gray-400 text-sm mt-10">
+  <div class="max-w-7xl mx-auto px-6 py-8">
+
+    <!-- لینک‌های بالا -->
+    <div class="flex flex-wrap justify-center lg:justify-start gap-6 text-white font-semibold text-center lg:text-left">
+      <a href="#" class="hover:underline">Careers</a>
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">Support</a>
+      <a href="#" class="hover:underline">Contact Us</a>
+      <a href="#" class="hover:underline">Press</a>
+      <a href="#" class="hover:underline">API</a>
+    </div>
+
+    <hr class="border-gray-700 my-6">
+
+    <!-- بخش پایینی -->
+    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 text-center lg:text-left">
+
+      <!-- لوگو + متن -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-12">
+        <img src="./image/svg/logo.svg" alt="Battle.net" class="w-[150px] h-auto">
+        <p class="text-xs leading-relaxed max-w-xs">
+          ©2025 Blizzard Entertainment, Inc. <br>
+          All <a href="#" class="underline hover:text-white">trademarks</a> referenced herein are the properties of their respective owners.
+        </p>
+      </div>
+
+      <!-- لینک‌های پایین -->
+      <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-xs">
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Legal</a>
+        <a href="#" class="hover:underline">Terms</a>
+        <a href="#" class="hover:underline">Cookie Policy</a>
+        <a href="#" class="hover:underline">Cookie Settings</a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- پایان پایین فوتر -->
+
+     
+<!-- شروع فلش پرش به بالا -->
+ <div class="up w-[40px] h-[40px] flex fixed z-50 bottom-15 right-10 border rounded-[5px] bg-main"><img class="" src="./image/svg/up.svg" alt=""></div>
+
+</div>
+
+
+  
+
+    </div>
+
+    <!-- Swiper JS -->
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+  </body>
+</html>

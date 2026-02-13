@@ -1,0 +1,75 @@
+
+@import "tailwindcss";
+
+@theme {
+    --color-main:rgb(21, 23, 30);
+    --color-second:rgb(35, 37, 43);
+    --color-text-menu:rgb(255, 255, 255);
+    --color-text-yellow:rgb(244, 173, 3);
+    --color-text:rgb(255, 255, 255);
+    --color-red:rgb(221, 0, 0);
+    --color-green:rgb(108, 219, 0);
+    --color-buttom:rgb(0, 116, 224);
+}
+
+@layer{
+    .wraper{
+        width: 100%;
+        background-color: rgb(21, 23, 30);
+        height: auto;
+    }
+}
+
+@layer{
+    .swiper {
+      width: 100%;
+      height:auto;
+      overflow: visible !important;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .swiper-button-next,.swiper-button-prev {
+      height: 45px !important;
+      width: 34px !important;
+      border-radius: 4px !important;
+      color: white !important;
+      background: var(--color-main) !important;
+      border: 1px solid var(--color-second) !important;
+    }
+
+    .swiper-button-next::after {
+      font-size: 20px !important;
+      font-weight: 10px !important;
+
+    }
+
+    .swiper-button-prev::after {
+      font-size: 20px !important;
+      font-weight: 10px !important;
+      
+    }
+    .swiper-pagination{
+      bottom: -30px !important;
+    }
+
+    .swiper-pagination-bullet{
+      width: 25px !important;
+      border-radius: 3px !important;
+      height: 5px !important;
+    }
+}
